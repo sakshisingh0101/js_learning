@@ -14,3 +14,17 @@ let n;
 let convertBool =Boolean(n);
 console.log(convertBool);
 
+
+
+
+
+//OPERATIONS
+//basic maths operation
+//concatenation str1 +str2 +str3
+console.log("1"+ 2)
+console.log(1+"2")
+console.log(1+2+"2")
+//conversion into string 
+//basically jo pehle likha for ex sring to vo string main convert ho gaya aur pehle mathmatical opr tha to pehle solve hua phir string main convert hua
+//assignment num1=num2=num3=34 kar skte h but not a good practice
+//increment and decrement operator
