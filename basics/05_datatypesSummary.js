@@ -15,3 +15,25 @@ let obj={
 let myfun=function(){
     console.log("hello")
 }
+
+
+
+
+//***********************************Stack and heap********************************************************** */
+ //Primitive :Stack
+ //Non-Primitive :heap
+ let name="sakshi"//stack
+ let age=22//stack
+ let name1=name;//stack
+ name1="saksham";//stack
+ console.log(name)
+ console.log(name1);
+ let user1={
+    name:"riya",
+    age:20
+
+    
+ }
+ let user2=user1;//heap
+
+
