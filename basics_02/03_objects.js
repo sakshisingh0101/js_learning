@@ -76,13 +76,13 @@ let {platform: plat}=course
 console.log(plat);
 
 //json and api
-{
-    "courseName": "javasript",
-    "language":"hinglish",
-    "courseinstructor":"hitesh",
-    "platform":"youtube"
+// {
+//     "courseName": "javasript",
+//     "language":"hinglish",
+//     "courseinstructor":"hitesh",
+//     "platform":"youtube"
 
-}
-[
-    {},{},{}
-]
+// }
+// [
+//     {},{},{}
+// ]
