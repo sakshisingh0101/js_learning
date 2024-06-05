@@ -1,4 +1,4 @@
-const random=parseInt((Math.random()*100)+1)
+let random=parseInt((Math.random()*100)+1)
 const guess=document.querySelector('#guessField');
 const submit=document.querySelector('#subt');
 const prevguess=document.querySelector('.guesses');
@@ -82,11 +82,13 @@ function displaymessage(message)
 }
 function newgame()
 {
-  playGame=true;
-  numguesses=0;
-  prevguesses=[];
-  prevguess.innerHTML="";
-  guessesremaining.innerHTML="10";
+  random=parseInt((Math.random()*100)+1);
+   numguesses=0;
+   prevguesses=[];
+   prevguess.innerHTML="";
+   guessesremaining.innerHTML="10";
+   playGame=true;
+
 }
 function endgame()
 {
