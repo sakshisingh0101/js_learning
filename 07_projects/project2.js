@@ -20,9 +20,12 @@ form.addEventListener('submit',(event)=>{
   
   else
   { ans=(weight*10000/(height*height)).toFixed(2);
-    let text=document.createTextNode(ans)
-    result.append(text)
-    // result.innerHTML=ans;
+    // let text=document.createTextNode(ans)
+    // result.append(text)
+    height='';
+    weight='';
+    result.innerHTML="";
+    result.innerHTML=ans;
     
   }
   if(ans<=18.6){
