@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="heading">CHAI AUR CODE</h1>
+   <button id="start">Start</button>
+   <br>
+   <button id="stop">Stop</button> 
+
+
+</body>
+<script>
+    const start=document.querySelector('#start');
+    const stop=document.querySelector('#stop');
+    let set;
+    let date=(str)=>   { console.log(str,new Date().toLocaleTimeString());}
+    start.addEventListener('click',function(e){
+      set =setInterval(date,1000,'hi')
+    })
+    stop.addEventListener('click',function(e){
+        clearInterval(set);
+    })
+</script>
+</html>
