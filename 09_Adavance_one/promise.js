@@ -107,3 +107,24 @@ fetch('https://jsonplaceholder.typicode.com/todos/1').then(function(response){
 }).finally(()=>{
     console.log('Successfully completed')
 })
+
+
+//instances 
+//outdated syntax
+const teacher={
+    makevideo:true
+
+}
+const teacherSupport={
+    isavailable:true
+}
+const TASupport={
+    makeassignment:'Javascript',
+    fulltime:true,
+    __proto__:teacherSupport
+}
+
+//new syntax
+Object.setPrototypeOf(teacherSupport,teacher);
+console.log(TASupport.isavailable);
+console.log(teacherSupport.makevideo)
