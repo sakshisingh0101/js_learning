@@ -44,9 +44,9 @@ let course={
 // {
 //     console.log(keys[i] + " =>" + course[keys[i]]);
 // }
-// for (const key in course) {
-//     console.log(course[key]);
-// }
+for (const key in course) {
+    console.log(course[key]);
+}
 let arr=[1,2,3]
 for(const i in arr){
     console.log(arr[i]);
